@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHABISTO Channel — Programs Schedule</title>
+  <link rel="stylesheet" href= "style.css" />
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">SHABISTO<span>TV</span></a>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="schedule.html" class="active">Schedule</a></li>
+        <li><a href="shows.html">Shows</a></li>
+        <li><a href="videos.html">Video Highlights</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <h1>Programs Schedule</h1>
+  <p>Plan your viewing With SHABISTO TV — never miss a show again. All times are in CAT .</p>
+</section>
+
+<section class="section">
+  <div class="container">
+
+
+    <div class="shows-filter" style="margin-bottom:2rem;">
+      <button class="filter-btn active" onclick="showDay('mon',this)">Monday</button>
+      <button class="filter-btn" onclick="showDay('tue',this)">Tuesday</button>
+      <button class="filter-btn" onclick="showDay('wed',this)">Wednesday</button>
+      <button class="filter-btn" onclick="showDay('thu',this)">Thursday</button>
+      <button class="filter-btn" onclick="showDay('fri',this)">Friday</button>
+      <button class="filter-btn" onclick="showDay('sat',this)">Saturday</button>
+      <button class="filter-btn" onclick="showDay('sun',this)">Sunday</button>
+    </div>
+
+   
+    <div class="day-schedule" id="day-mon">
+      <h2 class="section-title">Monday Schedule</h2>
+      <div class="schedule-table-wrap">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Show</th>
+              <th>Genre</th>
+              <th>Duration</th>
+              <th>Rating</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="time">06:00</td><td class="show-name">INTERNATIONAL NEWS</td><td>News</td><td>60 min</td><td>⭐ 7.5</td><td><span class="badge">Live</span></td></tr>
+            <tr><td class="time">07:00</td><td class="show-name">THE TSWYZA SHOW</td><td>Lifestyle</td><td>90 min</td><td>⭐ 8.1</td><td>—</td></tr>
+            <tr><td class="time">09:00</td><td class="show-name">THE UNBELIEVABLE</td><td>Documentary</td><td>44 min</td><td>⭐ 9.1</td><td>—</td></tr>
+            <tr><td class="time">10:00</td><td class="show-name">INTERNATIONAL NEWS</td><td>Children</td><td>60 min</td><td>⭐ 8.8</td><td>—</td></tr>
+            <tr><td class="time">12:00</td><td class="show-name">BEAUTY IN BLACK</td><td>Drama</td><td>30 min</td><td>⭐ 7.8</td><td><span class="now-live">🔴 ON AIR</span></td></tr>
+            <tr><td class="time">13:00</td><td class="show-name">CARTOONS</td><td>children</td><td>45 min</td><td>⭐ 8.5</td><td>—</td></tr>
+            <tr><td class="time">14:00</td><td class="show-name">WWE SMACKDOWN</td><td>Sports</td><td>52 min</td><td>⭐ 8.7</td><td>—</td></tr>
+            <tr><td class="time">15:00</td><td class="show-name">KICKOFF LIVE</td><td>Sports</td><td>90 min</td><td>⭐ 8.4</td><td>—</td></tr>
+            <tr><td class="time">17:00</td><td class="show-name">EVENING REPORT</td><td>News</td><td>30 min</td><td>⭐ 8.0</td><td>—</td></tr>
+            <tr><td class="time">18:00</td><td class="show-name">FAMILY DRAMA HOUR</td><td>Drama</td><td>60 min</td><td>⭐ 8.2</td><td>—</td></tr>
+            <tr><td class="time">20:00</td><td class="show-name">PRIMETIME NEWS</td><td>News</td><td>60 min</td><td>⭐ 8.6</td><td>—</td></tr>
+            <tr><td class="time">21:00</td><td class="show-name">The Night Agent</td><td>DRAMA</td><td>60 min</td><td>⭐ 7.9</td><td>—</td></tr>
+            <tr><td class="time">23:00</td><td class="show-name">HELLFIRE</td><td>Movie</td><td>120 min</td><td>⭐ 8.3</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  
+    <div class="day-schedule" id="day-tue" style="display:none;">
+      <h2 class="section-title">Tuesday Schedule</h2>
+      <div class="schedule-table-wrap">
+        <table class="schedule-table">
+          <thead><tr><th>Time</th><th>Show</th><th>Genre</th><th>Duration</th><th>Rating</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td class="time">06:00</td><td class="show-name">Morning Pulse</td><td>News</td><td>60 min</td><td>⭐ 7.5</td><td><span class="badge">Live</span></td></tr>
+            <tr><td class="time">07:30</td><td class="show-name">Yoga &amp; Wellness</td><td>Lifestyle</td><td>30 min</td><td>⭐ 8.0</td><td>—</td></tr>
+            <tr><td class="time">09:00</td><td class="show-name">Tech Today Africa</td><td>Technology</td><td>45 min</td><td>⭐ 8.3</td><td>—</td></tr>
+            <tr><td class="time">10:30</td><td class="show-name">Kids Corner</td><td>Children</td><td>60 min</td><td>⭐ 8.8</td><td>—</td></tr>
+            <tr><td class="time">12:00</td><td class="show-name">Beauty in Black</td><td>News</td><td>30 min</td><td>⭐ 7.8</td><td>—</td></tr>
+            <tr><td class="time">14:00</td><td class="show-name">Africa Rising</td><td>Documentary</td><td>44 min</td><td>⭐ 9.1</td><td>—</td></tr>
+            <tr><td class="time">16:00</td><td class="show-name">Business Hour</td><td>Finance</td><td>60 min</td><td>⭐ 7.6</td><td>—</td></tr>
+            <tr><td class="time">20:00</td><td class="show-name">Primetime News</td><td>News</td><td>60 min</td><td>⭐ 8.6</td><td>—</td></tr>
+            <tr><td class="time">21:00</td><td class="show-name">The Night Agent</td><td>Drama</td><td>52 min</td><td>⭐ 8.7</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+   
+    <div class="day-schedule" id="day-wed" style="display:none;">
+      <h2 class="section-title">Wednesday Schedule</h2>
+      <div class="schedule-table-wrap">
+        <table class="schedule-table">
+          <thead><tr><th>Time</th><th>Show</th><th>Genre</th><th>Duration</th><th>Rating</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td class="time">06:00</td><td class="show-name">Morning Pulse</td><td>News</td><td>60 min</td><td>⭐ 7.5</td><td><span class="badge">Live</span></td></tr>
+            <tr><td class="time">09:00</td><td class="show-name">Women In Focus</td><td>Lifestyle</td><td>45 min</td><td>⭐ 8.4</td><td>—</td></tr>
+            <tr><td class="time">12:00</td><td class="show-name">Beauty In Black</td><td>News</td><td>30 min</td><td>⭐ 7.8</td><td>—</td></tr>
+            <tr><td class="time">14:00</td><td class="show-name">Chef's Table Africa</td><td>Food</td><td>45 min</td><td>⭐ 8.5</td><td>—</td></tr>
+            <tr><td class="time">16:00</td><td class="show-name">Kickoff Live</td><td>Sports</td><td>90 min</td><td>⭐ 8.4</td><td>—</td></tr>
+            <tr><td class="time">20:00</td><td class="show-name">Primetime News</td><td>News</td><td>60 min</td><td>⭐ 8.6</td><td>—</td></tr>
+            <tr><td class="time">21:00</td><td class="show-name">The Night Agent</td><td>Drama</td><td>60 min</td><td>⭐ 7.9</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="day-schedule" id="day-thu" style="display:none;">
+      <h2 class="section-title">Thursday Schedule</h2>
+      <div class="schedule-table-wrap">
+        <table class="schedule-table">
+          <thead><tr><th>Time</th><th>Show</th><th>Genre</th><th>Duration</th><th>Rating</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td class="time">06:00</td><td class="show-name">Morning Pulse</td><td>News</td><td>60 min</td><td>⭐ 7.5</td><td>—</td></tr>
+            <tr><td class="time">10:00</td><td class="show-name">Africa Rising</td><td>Documentary</td><td>44 min</td><td>⭐ 9.1</td><td>—</td></tr>
+            <tr><td class="time">12:00</td><td class="show-name">Beauty in Black</td><td>News</td><td>30 min</td><td>⭐ 7.8</td><td>—</td></tr>
+            <tr><td class="time">15:00</td><td class="show-name">Tech Today Africa</td><td>Technology</td><td>45 min</td><td>⭐ 8.3</td><td>—</td></tr>
+            <tr><td class="time">20:00</td><td class="show-name">Primetime News</td><td>News</td><td>60 min</td><td>⭐ 8.6</td><td>—</td></tr>
+            <tr><td class="time">21:00</td><td class="show-name">The Night Agent</td><td>Drama</td><td>60 min</td><td>⭐ 8.3</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="day-schedule" id="day-fri" style="display:none;">
+      <h2 class="section-title">Friday Schedule</h2>
+      <div class="schedule-table-wrap">
+        <table class="schedule-table">
+          <thead><tr><th>Time</th><th>Show</th><th>Genre</th><th>Duration</th><th>Rating</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td class="time">06:00</td><td class="show-name">Morning Pulse</td><td>News</td><td>60 min</td><td>⭐ 7.5</td><td>—</td></tr>
+            <tr><td class="time">09:00</td><td class="show-name">Weekend Preview</td><td>Entertainment</td><td>30 min</td><td>⭐ 8.0</td><td>—</td></tr>
+            <tr><td class="time">12:00</td><td class="show-name">Beauty in Black</td><td>News</td><td>30 min</td><td>⭐ 7.8</td><td>—</td></tr>
+            <tr><td class="time">14:00</td><td class="show-name">The Last Signal</td><td>Drama</td><td>52 min</td><td>⭐ 8.7</td><td>—</td></tr>
+            <tr><td class="time">19:00</td><td class="show-name">Friday Night Live</td><td>Entertainment</td><td>90 min</td><td>⭐ 8.5</td><td>—</td></tr>
+            <tr><td class="time">21:00</td><td class="show-name">The Night Agent</td><td>Talk Show</td><td>60 min</td><td>⭐ 7.9</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="day-schedule" id="day-sat" style="display:none;">
+      <h2 class="section-title">Saturday Schedule</h2>
+      <div class="schedule-table-wrap">
+        <table class="schedule-table">
+          <thead><tr><th>Time</th><th>Show</th><th>Genre</th><th>Duration</th><th>Rating</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td class="time">08:00</td><td class="show-name">Weekend Morning Show</td><td>Lifestyle</td><td>90 min</td><td>⭐ 8.2</td><td>—</td></tr>
+            <tr><td class="time">10:00</td><td class="show-name">Kids Corner Special</td><td>Children</td><td>120 min</td><td>⭐ 9.0</td><td>—</td></tr>
+            <tr><td class="time">14:00</td><td class="show-name">Kickoff Live</td><td>Sports</td><td>90 min</td><td>⭐ 8.4</td><td>—</td></tr>
+            <tr><td class="time">17:00</td><td class="show-name">Africa Rising</td><td>Documentary</td><td>44 min</td><td>⭐ 9.1</td><td>—</td></tr>
+            <tr><td class="time">20:00</td><td class="show-name">Saturday Night Movie</td><td>Movie</td><td>120 min</td><td>⭐ 8.5</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="day-schedule" id="day-sun" style="display:none;">
+      <h2 class="section-title">Sunday Schedule</h2>
+      <div class="schedule-table-wrap">
+        <table class="schedule-table">
+          <thead><tr><th>Time</th><th>Show</th><th>Genre</th><th>Duration</th><th>Rating</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td class="time">09:00</td><td class="show-name">Sunday Service Live</td><td>Religion</td><td>60 min</td><td>⭐ 8.0</td><td>—</td></tr>
+            <tr><td class="time">11:00</td><td class="show-name">Family Movie</td><td>Movie</td><td>90 min</td><td>⭐ 8.2</td><td>—</td></tr>
+            <tr><td class="time">14:00</td><td class="show-name">Chef's Table Africa</td><td>Food</td><td>45 min</td><td>⭐ 8.5</td><td>—</td></tr>
+            <tr><td class="time">16:00</td><td class="show-name">Week in Review</td><td>News</td><td>60 min</td><td>⭐ 8.0</td><td>—</td></tr>
+            <tr><td class="time">20:00</td><td class="show-name">Sunday Night Drama</td><td>Drama</td><td>60 min</td><td>⭐ 8.7</td><td>—</td></tr>
+            <tr><td class="time">22:00</td><td class="show-name">Late Night Cinema</td><td>Movie</td><td>120 min</td><td>⭐ 8.3</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">SHABISTO<span>TV</span></div>
+        <p>Lesotho's premier online television channel.</p>
+        <div class="social-links" style="margin-top:1rem;">
+          <a href="https://facebook.com" target="_blank">f</a>
+          <a href="https://twitter.com" target="_blank">𝕏</a>
+          <a href="https://youtube.com" target="_blank">▶</a>
+          <a href="https://instagram.com" target="_blank">◎</a>
+        </div>
+      </div>
+      <div class="footer-col"><h5>Navigate</h5><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="shows.html">Shows</a></li>
+        <li><a href="videos.html">Video Highlights</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Categories</h5><ul>
+        <li><a href="shows.html">Drama</a></li><li><a href="shows.html">Documentary</a></li>
+        <li><a href="shows.html">Sports</a></li><li><a href="shows.html">News</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Company</h5><ul>
+        <li><a href="about.html">About Us</a></li><li><a href="about.html">Contact</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 SHABISTO TV Channel. All rights are reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu   = document.getElementById('nav-menu');
+  hamburger.addEventListener('click', () => navMenu.classList.toggle('open'));
+
+  function showDay(day, btn) {
+    document.querySelectorAll('.day-schedule').forEach(el => el.style.display = 'none');
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('day-' + day).style.display = 'block';
+    btn.classList.add('active');
+  }
+</script>
+</body>
+</html>
